@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+      <!-- my css -->
+      <link rel="stylesheet" href="css/style.css">
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <title>Hello !</title>
+      <link rel="icon" href="contact/assets/img/cat.png">
+      
+      <style>
+          img[
+          alt="000webhostapp.com"]{display: none;
+          }
+      </style>
+      
+    </head>
+
+    <body>
+        <!-- navbar -->
+        <div class="navbar-fixed">
+            <nav class="indigo lighten-2">
+              <div class="container">
+              <div class="nav-wrapper">
+                <a href="#" class="brand-logo">MY PROFILE</a>
+                <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                  <li><a href="#about">About me</a></li>
+                  <li><a href="#clients">Photos</a></li>
+                  <li><a href="#edu">Educational History
+                </a></li>
+                </ul>
+              </div>
+            </div>
+            </nav>
+          </div>
+
+          <!-- sidenav -->
+
+          <ul class="sidenav" id="mobile-nav">
+            <li><a href="#about">About me</a></li>
+            <li><a href="#clients">Photos</a></li>
+            <li><a href="#edu">Educational History
+          </a></li>
+          </ul>
+
+          <!-- slider -->
+
+          <div class="slider">
+            <ul class="slides">
+              <li>
+                <img src="img/slider/04.jpg">
+                <div class="caption left-align">
+                  <h3>I AM</h3>
+                  <h5 class="light grey-text text-lighten-3">Student.</h5>
+                </div>
+              </li>
+              <li>
+                <img src="img/slider/07.jpg">
+                <div class="caption right-align">
+                  <h3>I AM</h3>
+                  <h5 class="light grey-text text-lighten-3">Script Kiddies.</h5>
+                </div>
+              </li>
+              <li>
+                <img src="img/slider/06.jpg">
+                <div class="caption center-align">
+                  <h3>I AM</h3>
+                  <h5 class="light grey-text text-lighten-3">Ordinary Human.</h5>
+                </div>
+              </li>
+              </ul>
+              </div>
+
+              <!-- about me -->
+              <section id="about" class="about">
+                <div class="container">
+                  <div class="row">
+                    <h3 class="center light grey-text text-darken-3">About Me</h3>
+                    <div class="col m6 light">
+                      <h5>Adi Romadhon</h5>
+                      <p>"Tidak masalah seberapa banyak kebohongan yang kamu buat, tetapi yang penting adalah bagaimana kamu membuat kebohongan itu menjadi kenyataan."</p>
+                      </div>
+                      <div class="col m6 light">
+                        <p>Web Development</p>
+                        <div class="progress cyan lighten-5">
+                          <div class="determinate blue accent-3" style="width: 5%"></div>
+                      </div>
+                      <p>Copy</p>
+                        <div class="progress cyan lighten-5">
+                          <div class="determinate blue accent-3" style="width: 100%"></div>
+                      </div>
+                      <p>Paste</p>
+                        <div class="progress cyan lighten-5">
+                          <div class="determinate blue accent-3" style="width: 100%"></div>
+                      </div>
+                      </div>
+                    </div>
+                    <div class="row-cont">
+                      <div class="col m12 light center">
+                      <a class="indigo lighten-2 btn-small" href="contact/index.html">My Contact</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+              <!-- parallax -->
+              <div class="parallax-container">
+                <div class="parallax"><img src="img/portfolio/4.png"></div>
+                <div id="clients" class="container clients">
+                  <h3 class="center light black-text text-darken-3">My photos</h3>
+                  <div class="row">
+                    <div class="col m4 s12 center">
+                      <img src="img/01.png">
+                    </div>
+                    <div class="col m4 s12 center">
+                      <img src="img/02.png">
+                    </div>
+                    <div class="col m4 s12 center">
+                      <img src="img/03.png">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              <!-- edu -->
+              
+              <section id="edu" class="edu">
+                <div class="container">
+                  <div class="row">
+                    <h3 class="center light grey-text text-darken-3">Educational History</h3>
+                    <div class="col m6 light">
+                      <br>
+                      <h5 class="kiri">RA Ar Ridho</h5>
+                      <p class="kiri">2011 - 2012</p>
+                      <br>
+                      <h5 class="kiri">SMPN 267 Jakarta</h5>
+                      <p class="kiri">2018 - 2021</p>
+                      </div>
+                      <div class="col m6 light">
+                      <br>
+                      <h5 class="kanan">SDN Petukangan Selatan 05</h5>
+                      <p class="kanan">2012 - 2018</p>
+                      <br>
+                      <h5 class="kanan">SMKN 43 Jakarta</h5>
+                      <p class="kanan">2021</p>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+
+              <!-- footer -->
+              <footer class="indigo lighten-2 white-text center">
+                <p>COPYRIGHT 2022. | Made with ❤</p>
+              </footer>
+
+      <!--JavaScript at end of body for optimized loading-->
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script>
+
+        const sidenav = document.querySelectorAll('.sidenav');
+        M.Sidenav.init(sidenav)
+
+        const slider = document.querySelectorAll('.slider');
+        M.Slider.init(slider, {
+          indicators: false,
+          height: 555,
+          duration: 700,
+          interval: 3000
+        });
+
+        const parallax = document.querySelectorAll('.parallax');
+        M.Parallax.init(parallax)
+
+      </script>
+    </body>
+  </html>

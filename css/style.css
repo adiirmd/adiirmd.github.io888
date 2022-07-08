@@ -1,0 +1,57 @@
+.disclaimer {
+    display: none;
+}
+
+.navbar-fixed img {
+    padding-top: 12px;
+    max-width: 40px;
+}
+
+.slider h3,
+.slider h5 {
+    text-shadow: 6px 6px 6px rgba(0,0,0,50)
+}
+
+.about {
+    padding: 210px;
+    background-color: #9cb0b5;
+}
+
+.edu {
+    padding: 150px;
+    background-color: #9cb0b5;
+}
+
+.row-cont {
+    padding-top: 20px;
+}
+
+.kanan {
+    padding-left: 100px;
+}
+
+.kiri {
+    padding-right: 100px;
+}
+
+.clients h3 {
+    text-shadow: 6px 6px 6px rgba(255,255,255,50)
+}
+
+.parallax-container {
+    height: 20%;
+} 
+
+.parallax img {
+    filter: grayscale(1);
+    opacity: 0.5 !important;
+}
+
+.clients img {
+    max-width: 150px;
+    filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.8));
+}
+
+section, footer {
+    padding: 2px 0;
+}
